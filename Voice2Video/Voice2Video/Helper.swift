@@ -21,23 +21,24 @@ func getCreationDate(for file: URL) -> Date{
 
 //ViewModifiers
 
-//for setting background
-struct setBackground: ViewModifier{
-    func body(content: Content) -> some View {
-        content
-            .frame(maxWidth: UIScreen.main.bounds.width, maxHeight: UIScreen.main.bounds.height)
-            .ignoresSafeArea(.all)
-            .background(.black)
-
-    }
-}
-
-
-//extension
-extension View{
+//implement share sheet using UIAcitivityViewController to share the mov video
+// wrap UIActivityViewController with struct confirming to  UIViewControllerRepresentable protocol
+struct ActivityView: UIViewControllerRepresentable{
     
-    func appBackground() -> some View {
-        modifier(setBackground())
-    }
-}//extension view
+    let activityItems: [Any]
+    let applicationAcitivities: [UIActivity]? = nil
+    
+    //func responsibke to create ViewController
+    func makeUIViewController(context: Context) -> UIActivityViewController {
+        let controller = UIActivityViewController(activityItems: activityItems, applicationActivities: applicationAcitivities)
+        return controller
+    }// func makeUIViewController
+    
+    //func to update the view controller when the SwiftUI state changes
+    func updateUIViewController(_ uiViewController: UIActivityViewController, context: Context) {}
+    
+    typealias UIViewControllerType = UIActivityViewController
+    
+}//struct ActivityView
+
 

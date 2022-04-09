@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Voice2Video.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>bitcode</key>
+			<true/>
+			<key>buildNumber</key>
+			<string>1</string>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>A114C6A0D5836A325E86C30E6368F8241D48A2A5</string>
+				<key>dateExpires</key>
+				<string>4/1/23</string>
+				<key>type</key>
+				<string>Apple Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>XVPN7K5FK6.com.JanetaPaul.Voice2Video</string>
+				<key>beta-reports-active</key>
+				<true/>
+				<key>com.apple.developer.team-identifier</key>
+				<string>XVPN7K5FK6</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>XVPN7K5FK6.com.JanetaPaul.Voice2Video</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>Voice2Video.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>160e8e9f-4278-4c50-b901-6bfd945c8f3b</string>
+				<key>dateExpires</key>
+				<string>4/1/23</string>
+				<key>name</key>
+				<string>iOS Team Store Provisioning Profile: com.JanetaPaul.Voice2Video</string>
+			</dict>
+			<key>symbols</key>
+			<true/>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>XVPN7K5FK6</string>
+				<key>name</key>
+				<string>Janeta Paul Vincent Name</string>
+			</dict>
+			<key>versionNumber</key>
+			<string>1.0</string>
+		</dict>
+	</array>
+</dict>
+</plist>

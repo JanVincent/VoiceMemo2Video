@@ -49,7 +49,7 @@ class AudioRecorder:NSObject, ObservableObject{
         //define path to save the recording
         let documentPath = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0]
         //define the naming and format(.m4a extension, mpeg format) for the recording
-        let audioFileName = documentPath.appendingPathComponent("\(Date().toString(dateFormat: "dd-MM-YY_'at'_HH-mm-ss")).m4a")
+        let audioFileName = documentPath.appendingPathComponent("\(Date().toString(dateFormat: "MM_dd_YYYY_'at'_HH-mm-ss")).m4a")
         
         //settings for recording
         let settings = [
@@ -76,9 +76,16 @@ class AudioRecorder:NSObject, ObservableObject{
         audioRecorder.stop()
         recording = false
         //to be called every time a recording is done
+        audio2Video(audioURL: audioRecorder.url)
+        //delete the audio file
+        audioRecorder.deleteRecording()
         fetchRecording()
-        audio2Video()
+       
     }
+    func recordingDuration() -> Double{
+        return audioRecorder.currentTime
+    }
+
     
     //func to fetch the recordings
     func fetchRecording(){
@@ -93,8 +100,8 @@ class AudioRecorder:NSObject, ObservableObject{
             let recording = Recording(fileURL: audio, createdAt: getCreationDate(for: audio))
             recordings.append(recording)
         }
-        //sort recordings by the creation date
-        recordings.sort(by: {$0.createdAt.compare($1.createdAt) == .orderedAscending})
+        //sort recordings by the creation date(latest files on top)
+        recordings.sort(by: {$0.createdAt.compare($1.createdAt) == .orderedDescending})
         objectWillChange.send(self)
     }
     

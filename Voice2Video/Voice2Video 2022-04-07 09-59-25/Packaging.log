@@ -1,0 +1,157 @@
+2022-04-07 13:59:16 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x2a0cefd00; archive(resolved)="<IDEArchive: 0x2dcd71880>", distributionTask(resolved)="2", distributionDestination(resolved)="1", distributionMethod(resolved)="<IDEDistributionMethodiOSAppStoreDistribution: 0x2dda0fe30>", team(resolved)="<IDEProvisioningDisambiguatableBasicTeam: 0x120251fd0; teamID='XVPN7K5FK6', teamName='Janeta Paul Vincent Name', teamType='Individual', username='janpaul27@gmail.com', isFreeProvisioningTeam='0'>">
+	Chain (16, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x2a0cefd00; archive = "<IDEArchive: 0x2dcd71880>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x2dda0fe30>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x120251fd0; teamID='XVPN7K5FK6', teamName='Janeta Paul Vincent Name', teamType='Individual', username='janpaul27@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionProcessingPipelineContext: 0x2d863ad10; archive = "<IDEArchive: 0x2dcd71880>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x2dda0fe30>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x120251fd0; teamID='XVPN7K5FK6', teamName='Janeta Paul Vincent Name', teamType='Individual', username='janpaul27@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x2dcfbb8e0; archive = "<IDEArchive: 0x2dcd71880>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x2dda0fe30>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x120251fd0; teamID='XVPN7K5FK6', teamName='Janeta Paul Vincent Name', teamType='Individual', username='janpaul27@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x2c78b3d70; archive = "<IDEArchive: 0x2dcd71880>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x2dda0fe30>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x120251fd0; teamID='XVPN7K5FK6', teamName='Janeta Paul Vincent Name', teamType='Individual', username='janpaul27@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x2c78ad2d0; archive = "<IDEArchive: 0x2dcd71880>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x2dda0fe30>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x120251fd0; teamID='XVPN7K5FK6', teamName='Janeta Paul Vincent Name', teamType='Individual', username='janpaul27@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x2c6ef49a0; archive = "<IDEArchive: 0x2dcd71880>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x2dda0fe30>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x120251fd0; teamID='XVPN7K5FK6', teamName='Janeta Paul Vincent Name', teamType='Individual', username='janpaul27@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x2c7824a70; archive = "<IDEArchive: 0x2dcd71880>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x2dda0fe30>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x120251fd0; teamID='XVPN7K5FK6', teamName='Janeta Paul Vincent Name', teamType='Individual', username='janpaul27@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x2da54c4b0; archive = "<IDEArchive: 0x2dcd71880>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x2dda0fe30>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x120251fd0; teamID='XVPN7K5FK6', teamName='Janeta Paul Vincent Name', teamType='Individual', username='janpaul27@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x2c6ef0680; archive = "<IDEArchive: 0x2dcd71880>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x2dda0fe30>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x120251fd0; teamID='XVPN7K5FK6', teamName='Janeta Paul Vincent Name', teamType='Individual', username='janpaul27@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x2d7adb230; archive = "<IDEArchive: 0x2dcd71880>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x2dda0fe30>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x120251fd0; teamID='XVPN7K5FK6', teamName='Janeta Paul Vincent Name', teamType='Individual', username='janpaul27@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x2c784ed30; archive = "<IDEArchive: 0x2dcd71880>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x2dda0fe30>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x120251fd0; teamID='XVPN7K5FK6', teamName='Janeta Paul Vincent Name', teamType='Individual', username='janpaul27@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x2c7829390; archive = "<IDEArchive: 0x2dcd71880>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x2dda0fe30>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x120251fd0; teamID='XVPN7K5FK6', teamName='Janeta Paul Vincent Name', teamType='Individual', username='janpaul27@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x2c7825ce0; archive = "<IDEArchive: 0x2dcd71880>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x2dda0fe30>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x120251fd0; teamID='XVPN7K5FK6', teamName='Janeta Paul Vincent Name', teamType='Individual', username='janpaul27@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x2c6e268f0; archive = "<IDEArchive: 0x2dcd71880>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x2dda0fe30>", team="(null)">
+	<IDEDistributionContext: 0x2da54c7c0; archive = "<IDEArchive: 0x2dcd71880>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x2dda0fe30>", team="(null)">
+	<IDEDistributionContext: 0x2dcd2fd60; archive = "<IDEArchive: 0x2dcd71880>", distributionMethod="(null)", team="(null)">
+</IDEDistributionProcessingPipelineContext: 0x2a0cefd00>
+2022-04-07 13:59:16 +0000  Processing step: IDEDistributionCreateDestRootStep
+2022-04-07 13:59:16 +0000  Processing step: IDEDistributionCopyItemStep
+2022-04-07 13:59:16 +0000  Running /usr/bin/ditto '-V' '/Users/rajan/Library/Developer/Xcode/Archives/2022-04-07/Voice2Video 4-7-22, 9.57 AM.xcarchive/Products/Applications/Voice2Video.app' '/var/folders/3v/8r93mmfn2l906q_bjh12yqnm0000gn/T/XcodeDistPipeline.~~~ZYZckf/Root/Payload/Voice2Video.app'
+2022-04-07 13:59:16 +0000  >>> Copying /Users/rajan/Library/Developer/Xcode/Archives/2022-04-07/Voice2Video 4-7-22, 9.57 AM.xcarchive/Products/Applications/Voice2Video.app 
+2022-04-07 13:59:16 +0000  copying file ./_CodeSignature/CodeResources ... 
+2022-04-07 13:59:16 +0000  2977 bytes for ./_CodeSignature/CodeResources
+2022-04-07 13:59:16 +0000  copying file ./vm2v.mov ... 
+2022-04-07 13:59:16 +0000  4853718 bytes for ./vm2v.mov
+2022-04-07 13:59:16 +0000  copying file ./AppIcon60x60@2x.png ... 
+27010 bytes for ./AppIcon60x60@2x.png
+copying file ./Assets.car ... 
+2022-04-07 13:59:16 +0000  1293887 bytes for ./Assets.car
+2022-04-07 13:59:16 +0000  copying file ./AppIcon76x76@2x~ipad.png ... 
+2022-04-07 13:59:16 +0000  38877 bytes for ./AppIcon76x76@2x~ipad.png
+2022-04-07 13:59:16 +0000  copying file ./embedded.mobileprovision ... 
+2022-04-07 13:59:16 +0000  16383 bytes for ./embedded.mobileprovision
+2022-04-07 13:59:16 +0000  copying file ./Voice2Video ... 
+2022-04-07 13:59:16 +0000  584640 bytes for ./Voice2Video
+2022-04-07 13:59:16 +0000  copying file ./Info.plist ... 
+2022-04-07 13:59:16 +0000  1549 bytes for ./Info.plist
+2022-04-07 13:59:16 +0000  copying file ./PkgInfo ... 
+2022-04-07 13:59:16 +0000  8 bytes for ./PkgInfo
+2022-04-07 13:59:16 +0000  /usr/bin/ditto exited with 0
+2022-04-07 13:59:16 +0000  Processing step: IDEDistributionEmbedProfileStep
+2022-04-07 13:59:16 +0000  Processing step: IDEDistributionInfoPlistStep
+2022-04-07 13:59:16 +0000  Processing step: IDEDistributionItemRemovalStep
+2022-04-07 13:59:16 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2022-04-07 13:59:16 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2022-04-07 13:59:16 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2022-04-07 13:59:16 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2022-04-07 13:59:16 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2022-04-07 13:59:16 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/3v/8r93mmfn2l906q_bjh12yqnm0000gn/T/XcodeDistPipeline.~~~ZYZckf/Root/Payload/Voice2Video.app/Voice2Video' '-l' '-keep_cs' '-o' '/var/folders/3v/8r93mmfn2l906q_bjh12yqnm0000gn/T/XcodeDistPipeline.~~~ZYZckf/Root/Payload/Voice2Video.app/Voice2Video'
+2022-04-07 13:59:16 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2022-04-07 13:59:16 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2022-04-07 13:59:16 +0000  Running /usr/bin/ditto '-V' '/Users/rajan/Library/Developer/Xcode/Archives/2022-04-07/Voice2Video 4-7-22, 9.57 AM.xcarchive/BCSymbolMaps/A48A89B9-610D-34EC-AC00-BCB91D518654.bcsymbolmap' '/var/folders/3v/8r93mmfn2l906q_bjh12yqnm0000gn/T/XcodeDistPipeline.~~~ZYZckf/Root/BCSymbolMaps/A48A89B9-610D-34EC-AC00-BCB91D518654.bcsymbolmap'
+2022-04-07 13:59:16 +0000  >>> Copying /Users/rajan/Library/Developer/Xcode/Archives/2022-04-07/Voice2Video 4-7-22, 9.57 AM.xcarchive/BCSymbolMaps/A48A89B9-610D-34EC-AC00-BCB91D518654.bcsymbolmap 
+2022-04-07 13:59:16 +0000  copying file ./A48A89B9-610D-34EC-AC00-BCB91D518654.bcsymbolmap ... 
+2022-04-07 13:59:16 +0000  87865 bytes for ./A48A89B9-610D-34EC-AC00-BCB91D518654.bcsymbolmap
+2022-04-07 13:59:16 +0000  /usr/bin/ditto exited with 0
+2022-04-07 13:59:16 +0000  Processing step: IDEDistributionSymbolsStep
+2022-04-07 13:59:16 +0000  Excluding symbols for Voice2Video.app
+2022-04-07 13:59:16 +0000  Processing step: IDEDistributionCopyAppleProvidedContentStep
+2022-04-07 13:59:16 +0000  Processing step: IDEDistributionAppThinningStep
+2022-04-07 13:59:16 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2022-04-07 13:59:16 +0000  Processing step: IDEDistributionArchThinningStep
+2022-04-07 13:59:16 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/3v/8r93mmfn2l906q_bjh12yqnm0000gn/T/XcodeDistPipeline.~~~ZYZckf/Root/Payload/Voice2Video.app/Voice2Video' '-verify_arch' 'arm64e'
+2022-04-07 13:59:16 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2022-04-07 13:59:16 +0000  Skipping architecture thinning for item "Voice2Video" because arch "arm64e" wasn't found
+2022-04-07 13:59:16 +0000  Processing step: IDEDistributionODRStep
+2022-04-07 13:59:16 +0000  Processing step: IDEDistributionStripXattrsStep
+2022-04-07 13:59:16 +0000  Running /usr/bin/xattr '-crs' '/var/folders/3v/8r93mmfn2l906q_bjh12yqnm0000gn/T/XcodeDistPipeline.~~~ZYZckf/Root/Payload/Voice2Video.app'
+2022-04-07 13:59:16 +0000  /usr/bin/xattr exited with 0
+2022-04-07 13:59:16 +0000  Processing step: IDEDistributionCodesignStep
+2022-04-07 13:59:16 +0000  Entitlements for <IDEDistributionItem: 0x2dc00c9d0; bundleID='com.JanetaPaul.Voice2Video', path='<DVTFilePath:0x2dcdddf20:'/Users/rajan/Library/Developer/Xcode/Archives/2022-04-07/Voice2Video 4-7-22, 9.57 AM.xcarchive/Products/Applications/Voice2Video.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x11058c3f0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2dda08e20; name='Apple Development: Janeta Paul Vincent Name (4GH58ZW22P)', hash='D30205A3454692B1F3CF9B628563573D8693B8D7', serialNumber='64110C687F6CBC5F2DE74300F8CFE92D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-04-01 17:56:50 +0000''>', entitlements='{
+    "application-identifier" = "XVPN7K5FK6.com.JanetaPaul.Voice2Video";
+    "com.apple.developer.team-identifier" = XVPN7K5FK6;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "XVPN7K5FK6.com.JanetaPaul.Voice2Video"
+    );
+}', teamID='XVPN7K5FK6', identifier='com.JanetaPaul.Voice2Video', executablePath='<DVTFilePath:0x2d8811900:'/Users/rajan/Library/Developer/Xcode/Archives/2022-04-07/Voice2Video 4-7-22, 9.57 AM.xcarchive/Products/Applications/Voice2Video.app/Voice2Video'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "XVPN7K5FK6.com.JanetaPaul.Voice2Video";
+    "beta-reports-active" = 1;
+    "com.apple.developer.team-identifier" = XVPN7K5FK6;
+    "get-task-allow" = 0;
+    "keychain-access-groups" =     (
+        "XVPN7K5FK6.com.JanetaPaul.Voice2Video"
+    );
+}
+2022-04-07 13:59:16 +0000  Entitlements for <IDEDistributionItem: 0x2dc00c9d0; bundleID='com.JanetaPaul.Voice2Video', path='<DVTFilePath:0x2dcdddf20:'/Users/rajan/Library/Developer/Xcode/Archives/2022-04-07/Voice2Video 4-7-22, 9.57 AM.xcarchive/Products/Applications/Voice2Video.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x11058c3f0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x14f0f8390; name='Apple Development: Janeta Paul Vincent Name (4GH58ZW22P)', hash='D30205A3454692B1F3CF9B628563573D8693B8D7', serialNumber='64110C687F6CBC5F2DE74300F8CFE92D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-04-01 17:56:50 +0000''>', entitlements='{
+    "application-identifier" = "XVPN7K5FK6.com.JanetaPaul.Voice2Video";
+    "com.apple.developer.team-identifier" = XVPN7K5FK6;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "XVPN7K5FK6.com.JanetaPaul.Voice2Video"
+    );
+}', teamID='XVPN7K5FK6', identifier='com.JanetaPaul.Voice2Video', executablePath='<DVTFilePath:0x2d8811900:'/Users/rajan/Library/Developer/Xcode/Archives/2022-04-07/Voice2Video 4-7-22, 9.57 AM.xcarchive/Products/Applications/Voice2Video.app/Voice2Video'>', hardenedRuntime='0'>'> are: {
+    "application-identifier" = "XVPN7K5FK6.com.JanetaPaul.Voice2Video";
+    "beta-reports-active" = 1;
+    "com.apple.developer.team-identifier" = XVPN7K5FK6;
+    "get-task-allow" = 0;
+    "keychain-access-groups" =     (
+        "XVPN7K5FK6.com.JanetaPaul.Voice2Video"
+    );
+}
+2022-04-07 13:59:16 +0000  Writing entitlements for <IDEDistributionItem: 0x2dc00c9d0; bundleID='com.JanetaPaul.Voice2Video', path='<DVTFilePath:0x2dcdddf20:'/Users/rajan/Library/Developer/Xcode/Archives/2022-04-07/Voice2Video 4-7-22, 9.57 AM.xcarchive/Products/Applications/Voice2Video.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x11058c3f0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x2d89406b0; name='Apple Development: Janeta Paul Vincent Name (4GH58ZW22P)', hash='D30205A3454692B1F3CF9B628563573D8693B8D7', serialNumber='64110C687F6CBC5F2DE74300F8CFE92D', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-04-01 17:56:50 +0000''>', entitlements='{
+    "application-identifier" = "XVPN7K5FK6.com.JanetaPaul.Voice2Video";
+    "com.apple.developer.team-identifier" = XVPN7K5FK6;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "XVPN7K5FK6.com.JanetaPaul.Voice2Video"
+    );
+}', teamID='XVPN7K5FK6', identifier='com.JanetaPaul.Voice2Video', executablePath='<DVTFilePath:0x2d8811900:'/Users/rajan/Library/Developer/Xcode/Archives/2022-04-07/Voice2Video 4-7-22, 9.57 AM.xcarchive/Products/Applications/Voice2Video.app/Voice2Video'>', hardenedRuntime='0'>'> to: /var/folders/3v/8r93mmfn2l906q_bjh12yqnm0000gn/T/XcodeDistPipeline.~~~ZYZckf/entitlements~~~lgypyN
+2022-04-07 13:59:16 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'A114C6A0D5836A325E86C30E6368F8241D48A2A5' '--entitlements' '/var/folders/3v/8r93mmfn2l906q_bjh12yqnm0000gn/T/XcodeDistPipeline.~~~ZYZckf/entitlements~~~lgypyN' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/3v/8r93mmfn2l906q_bjh12yqnm0000gn/T/XcodeDistPipeline.~~~ZYZckf/Root/Payload/Voice2Video.app'
+2022-04-07 13:59:16 +0000  /var/folders/3v/8r93mmfn2l906q_bjh12yqnm0000gn/T/XcodeDistPipeline.~~~ZYZckf/Root/Payload/Voice2Video.app: replacing existing signature
+2022-04-07 13:59:16 +0000  /var/folders/3v/8r93mmfn2l906q_bjh12yqnm0000gn/T/XcodeDistPipeline.~~~ZYZckf/Root/Payload/Voice2Video.app: signed app bundle with Mach-O thin (arm64) [com.JanetaPaul.Voice2Video]
+2022-04-07 13:59:16 +0000  /usr/bin/codesign exited with 0
+2022-04-07 13:59:16 +0000  Processing step: IDEDistributionZipODRItemStep
+2022-04-07 13:59:16 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2022-04-07 13:59:16 +0000  Processing step: IDEDistributionCreateIPAStep
+2022-04-07 13:59:16 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/3v/8r93mmfn2l906q_bjh12yqnm0000gn/T/XcodeDistPipeline.~~~ZYZckf/Root' '/var/folders/3v/8r93mmfn2l906q_bjh12yqnm0000gn/T/XcodeDistPipeline.~~~ZYZckf/Packages/Voice2Video.ipa'
+2022-04-07 13:59:16 +0000  >>> Copying /var/folders/3v/8r93mmfn2l906q_bjh12yqnm0000gn/T/XcodeDistPipeline.~~~ZYZckf/Root 
+2022-04-07 13:59:16 +0000  copying file ./BCSymbolMaps/A48A89B9-610D-34EC-AC00-BCB91D518654.bcsymbolmap ... 
+2022-04-07 13:59:16 +0000  87865 bytes for ./BCSymbolMaps/A48A89B9-610D-34EC-AC00-BCB91D518654.bcsymbolmap
+2022-04-07 13:59:16 +0000  copying file ./Payload/Voice2Video.app/_CodeSignature/CodeResources ... 
+2022-04-07 13:59:16 +0000  2977 bytes for ./Payload/Voice2Video.app/_CodeSignature/CodeResources
+2022-04-07 13:59:16 +0000  copying file ./Payload/Voice2Video.app/vm2v.mov ... 
+2022-04-07 13:59:16 +0000  4853718 bytes for ./Payload/Voice2Video.app/vm2v.mov
+copying file ./Payload/Voice2Video.app/AppIcon60x60@2x.png ... 
+2022-04-07 13:59:16 +0000  27010 bytes for ./Payload/Voice2Video.app/AppIcon60x60@2x.png
+copying file ./Payload/Voice2Video.app/Assets.car ... 
+2022-04-07 13:59:16 +0000  1293887 bytes for ./Payload/Voice2Video.app/Assets.car
+copying file ./Payload/Voice2Video.app/AppIcon76x76@2x~ipad.png ... 
+2022-04-07 13:59:16 +0000  38877 bytes for ./Payload/Voice2Video.app/AppIcon76x76@2x~ipad.png
+copying file ./Payload/Voice2Video.app/embedded.mobileprovision ... 
+2022-04-07 13:59:16 +0000  14242 bytes for ./Payload/Voice2Video.app/embedded.mobileprovision
+copying file ./Payload/Voice2Video.app/Voice2Video ... 
+2022-04-07 13:59:16 +0000  467296 bytes for ./Payload/Voice2Video.app/Voice2Video
+copying file ./Payload/Voice2Video.app/Info.plist ... 
+2022-04-07 13:59:16 +0000  1549 bytes for ./Payload/Voice2Video.app/Info.plist
+copying file ./Payload/Voice2Video.app/PkgInfo ... 
+8 bytes for ./Payload/Voice2Video.app/PkgInfo
+2022-04-07 13:59:16 +0000  /usr/bin/ditto exited with 0
+2022-04-07 13:59:16 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2022-04-07 13:59:16 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2022-04-07 13:59:16 +0000  Processing step: IDEDistributionGenerateProcessedDistributionItems
+2022-04-07 13:59:16 +0000  IDEDistributionItem init <DVTFilePath:0x2d4e82690:'/var/folders/3v/8r93mmfn2l906q_bjh12yqnm0000gn/T/XcodeDistPipeline.~~~ZYZckf/Root/Payload/Voice2Video.app'>
+2022-04-07 13:59:16 +0000  Processing step: IDEDistributionCreateManifestStep
+2022-04-07 13:59:16 +0000  Skipping step: IDEDistributionCreateManifestStep because it said so

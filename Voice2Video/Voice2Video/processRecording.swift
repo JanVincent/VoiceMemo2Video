@@ -7,9 +7,12 @@
 
 import Foundation
 import AVFoundation
+import UIKit
 
 //func to merge the recording with a default video and save it as a .mov video
-func audio2Video() {
+func audio2Video(audioURL : URL) {
+    let audioURL = audioURL
+    let movieName = audioURL.deletingPathExtension().lastPathComponent
     //create empty mutable composition with video and audio asset
     let movie = AVMutableComposition()
     let videoTrack = movie.addMutableTrack(withMediaType: .video, preferredTrackID: kCMPersistentTrackID_Invalid)
@@ -23,7 +26,8 @@ func audio2Video() {
         let targetVideoTrack = targetVideo.tracks(withMediaType: .video).first!
         
         //get the url for the latest recording
-        let targetAudio =  AVURLAsset(url: Bundle.main.url(forResource: "rhyme", withExtension: "m4a")!)
+        let targetAudio =  AVURLAsset(url: audioURL)
+        //let targetAudio = AVURLAsset(url: FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!)
         let targetAudioTrack = targetAudio.tracks(withMediaType: .audio).first!
         //the range of the final video will be same as the audio recording
         let videoRange = CMTimeRangeMake(start: CMTime.zero, duration: targetAudio.duration)
@@ -44,7 +48,7 @@ func audio2Video() {
     
 
     //path to export to
-    guard let outputMovieURL = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first?.appendingPathComponent("exported.mov") else { return }
+    guard let outputMovieURL = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first?.appendingPathComponent("\(movieName).mov") else { return }
     
     exportVideo(movie, to: outputMovieURL)
     
@@ -62,13 +66,11 @@ func exportVideo(_ asset: AVAsset, to outputMovieURL: URL){
     
     exporter.exportAsynchronously(completionHandler: {[weak exporter] in DispatchQueue.main.async {
         if let error = exporter?.error {
-            print("faile \(error.localizedDescription)")
+            print("failed \(error.localizedDescription)")
         }//if
-        else{
-            print("movie has been exported to \(outputMovieURL)")
-        }//else
     }//async
         
     }//completionHandler)
     )
 }// func exportVideo
+

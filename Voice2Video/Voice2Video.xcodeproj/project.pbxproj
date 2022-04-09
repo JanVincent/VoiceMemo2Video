@@ -18,7 +18,6 @@
 		E5190EAB27F94E550088C46E /* RecordingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5190EAA27F94E550088C46E /* RecordingList.swift */; };
 		E5190EAD27F95B810088C46E /* processRecording.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5190EAC27F95B810088C46E /* processRecording.swift */; };
 		E5190EB027F9606B0088C46E /* vm2v.mov in Resources */ = {isa = PBXBuildFile; fileRef = E5190EAF27F9606B0088C46E /* vm2v.mov */; };
-		E5190EB227F96CBD0088C46E /* rhyme.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E5190EB127F96CBD0088C46E /* rhyme.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,7 +33,6 @@
 		E5190EAA27F94E550088C46E /* RecordingList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingList.swift; sourceTree = "<group>"; };
 		E5190EAC27F95B810088C46E /* processRecording.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = processRecording.swift; sourceTree = "<group>"; };
 		E5190EAF27F9606B0088C46E /* vm2v.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = vm2v.mov; path = Voice2Video/vm2v.mov; sourceTree = "<group>"; };
-		E5190EB127F96CBD0088C46E /* rhyme.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = rhyme.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +49,6 @@
 		E517156627F8D1FB00A20646 = {
 			isa = PBXGroup;
 			children = (
-				E5190EB127F96CBD0088C46E /* rhyme.m4a */,
 				E5190EAF27F9606B0088C46E /* vm2v.mov */,
 				E517157127F8D1FB00A20646 /* Voice2Video */,
 				E517157027F8D1FB00A20646 /* Products */,
@@ -149,7 +146,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5190EB227F96CBD0088C46E /* rhyme.m4a in Resources */,
 				E5190EB027F9606B0088C46E /* vm2v.mov in Resources */,
 				E517157A27F8D1FC00A20646 /* Preview Assets.xcassets in Resources */,
 				E517157727F8D1FC00A20646 /* Assets.xcassets in Resources */,
@@ -311,6 +307,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -342,6 +339,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
