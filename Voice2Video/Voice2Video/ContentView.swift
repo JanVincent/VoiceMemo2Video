@@ -22,6 +22,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView{
             VStack{
+                // While recording is OFF
                 if audioRecorder.recording == false{
                     Spacer()
                     Spacer()
@@ -32,6 +33,7 @@ struct ContentView: View {
                         Image("startRecording")
                     }//button
                 }// if
+                //when recording is ON
                 else{
                     Spacer()
                     //display recording duration

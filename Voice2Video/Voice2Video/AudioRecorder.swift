@@ -81,12 +81,8 @@ class AudioRecorder:NSObject, ObservableObject{
         audioRecorder.deleteRecording()
         fetchRecording()
        
-    }
-    func recordingDuration() -> Double{
-        return audioRecorder.currentTime
-    }
+    }//func stopRecording
 
-    
     //func to fetch the recordings
     func fetchRecording(){
         // empty recordings array to avoid repeatation
@@ -103,6 +99,6 @@ class AudioRecorder:NSObject, ObservableObject{
         //sort recordings by the creation date(latest files on top)
         recordings.sort(by: {$0.createdAt.compare($1.createdAt) == .orderedDescending})
         objectWillChange.send(self)
-    }
+    }// func fetchRecording
     
 }// class AudioRecorder

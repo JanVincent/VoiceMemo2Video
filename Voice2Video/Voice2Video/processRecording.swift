@@ -9,6 +9,7 @@ import Foundation
 import AVFoundation
 import UIKit
 
+
 //func to merge the recording with a default video and save it as a .mov video
 func audio2Video(audioURL : URL) {
     let audioURL = audioURL
@@ -71,6 +72,6 @@ func exportVideo(_ asset: AVAsset, to outputMovieURL: URL){
     }//async
         
     }//completionHandler)
-    )
+    )//exportAsynchronously
 }// func exportVideo
 

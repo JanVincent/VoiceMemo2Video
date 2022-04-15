@@ -15,14 +15,14 @@ struct RecordingsList: View {
             UITableView.appearance().backgroundColor = .clear
             UITableViewCell.appearance().backgroundColor = .clear
             UITableView.appearance().tableFooterView = UIView()
-     }
+    }//func intialize
     
     var body: some View {
         List{
             ForEach(audioRecorder.recordings, id: \.createdAt) {
                 recording in RecordingRow(audioURL: recording.fileURL)
                     .listRowBackground(Color.clear)
-            }
+            }//ForEach
         }//List
         .padding()
         .foregroundColor(.blue)
