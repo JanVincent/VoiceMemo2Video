@@ -33,23 +33,26 @@ class AudioRecorder:NSObject, ObservableObject{
         }
     }
     //func to start recording on Button Press
-    func startRecording(){
-        //creste recording session
-        let recordingSesson = AVAudioSession.sharedInstance()
+    func startRecording(recordingSession: AVAudioSession){
+        
         
         do{
             //define type of recording session
-            try recordingSesson.setCategory(.playAndRecord, mode: .default)
+            try recordingSession.setCategory(.playAndRecord, mode: .default)
             //activate the recording session
-            try recordingSesson.setActive(true)
+            try recordingSession.setActive(true)
         } catch{
-            print("Failed to set up recording session")
+            let alertmsg = UIAlertController(title: "Try Again", message: "Failed to set up recording session", preferredStyle: .alert)
+            let ok = UIAlertAction(title: "OK", style: .default, handler: nil)
+            alertmsg.addAction(ok)
+            UIApplication.topViewController()?.present(alertmsg, animated: false, completion: nil)
+            return
         }//catch
         
         //define path to save the recording
         let documentPath = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0]
         //define the naming and format(.m4a extension, mpeg format) for the recording
-        let audioFileName = documentPath.appendingPathComponent("\(Date().toString(dateFormat: "MM_dd_YYYY_'at'_HH-mm-ss")).m4a")
+        let audioFileName = documentPath.appendingPathComponent("\(Date().toString(dateFormat: "MM_dd_YYYY_'at'_HH_mm_ss")).m4a")
         
         //settings for recording
         let settings = [
@@ -66,7 +69,11 @@ class AudioRecorder:NSObject, ObservableObject{
             audioRecorder.record()
             recording = true
         } catch{
-            print("Could not start recording")
+            let alertmsg = UIAlertController(title: "Try Again", message: "Could not start recording", preferredStyle: .alert)
+            let ok = UIAlertAction(title: "OK", style: .default, handler: nil)
+            alertmsg.addAction(ok)
+            UIApplication.topViewController()?.present(alertmsg, animated: false, completion: nil)
+            return
         }
 
     }// func startRecording
@@ -93,8 +100,10 @@ class AudioRecorder:NSObject, ObservableObject{
         let directoryContents = try! fileManager.contentsOfDirectory(at: documentDirectory, includingPropertiesForKeys: nil)
         //cycle through all save audios
         for audio in directoryContents{
-            let recording = Recording(fileURL: audio, createdAt: getCreationDate(for: audio))
-            recordings.append(recording)
+            if audio.pathExtension == "mov"{
+                let recording = Recording(fileURL: audio, createdAt: getCreationDate(for: audio))
+                recordings.append(recording)
+            }
         }
         //sort recordings by the creation date(latest files on top)
         recordings.sort(by: {$0.createdAt.compare($1.createdAt) == .orderedDescending})

@@ -22,6 +22,7 @@ struct RecordingsList: View {
             ForEach(audioRecorder.recordings, id: \.createdAt) {
                 recording in RecordingRow(audioURL: recording.fileURL)
                     .listRowBackground(Color.clear)
+                    .listRowSeparator(.hidden)
             }//ForEach
         }//List
         .padding()
