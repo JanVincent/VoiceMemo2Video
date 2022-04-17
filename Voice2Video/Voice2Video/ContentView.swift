@@ -14,20 +14,13 @@ struct ContentView: View {
     //creste recording session
     let recordingSession = AVAudioSession.sharedInstance()
     
-    //to set custom font color for Navigation Title
-    func initialize(){
-        let navBarAppearance = UINavigationBar.appearance()
-        navBarAppearance.largeTitleTextAttributes = [.foregroundColor: UIColor.white]
-        navBarAppearance.titleTextAttributes = [.foregroundColor: UIColor.white]
-              }
-    
     var body: some View {
         NavigationView{
             VStack{
                 // While recording is OFF
                 if audioRecorder.recording == false{
-                    Spacer()
-                    Spacer()
+                    //Spacer()
+                    //Spacer()
                     // list of recordings
                     RecordingsList(audioRecorder: audioRecorder)
                     // button to start the recording
@@ -75,8 +68,23 @@ struct ContentView: View {
                     }//button
                 }//else
             }//Main Vstack
-            .onAppear(perform: self.initialize)
-            .navigationBarTitle(Text("VOICE MEMO 2 VIDEO"))
+            .toolbar{
+                ToolbarItem(placement: .principal){
+                    //app title for iphone
+                    if UIDevice.current.userInterfaceIdiom == .phone{
+                        Text("VOICE MEMO 2 VIDEO")
+                            .font(.title)
+                    }
+                    //app title for ipad
+                    if UIDevice.current.userInterfaceIdiom == .pad{
+                        Text("VOICE MEMO 2 VIDEO")
+                            .font(.largeTitle)
+                            .bold()
+                    }
+                    
+                }//toolbaritem
+            }//toolbar
+            .navigationBarBackButtonHidden(true)
         }//Navigation View
         .preferredColorScheme(.dark)
         .navigationViewStyle(.stack)
