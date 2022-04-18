@@ -29,6 +29,8 @@ struct ContentView: View {
                         recordingSession.requestRecordPermission { granted in
                             if granted{
                                 self.audioRecorder.startRecording(recordingSession: recordingSession)
+                                //Disable screen lock
+                                UIApplication.shared.isIdleTimerDisabled = true
                             }
                             else{
                                 let alertmsg = UIAlertController(title: "Grant Microphone access", message: "We need access to do recording", preferredStyle: .alert)
@@ -63,7 +65,11 @@ struct ContentView: View {
                         .font(.system(size: 60))
                     Spacer()
                     // button to stop the recording
-                    Button(action: {self.audioRecorder.stopRecording()}){
+                    Button(action: {
+                        self.audioRecorder.stopRecording()
+                        //Enable the screen lock
+                        UIApplication.shared.isIdleTimerDisabled = false
+                    }){
                         Image("stopRecording")
                     }//button
                 }//else

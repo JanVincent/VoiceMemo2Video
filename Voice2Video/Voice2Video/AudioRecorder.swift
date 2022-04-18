@@ -67,8 +67,6 @@ class AudioRecorder:NSObject, ObservableObject{
         do{
             audioRecorder = try AVAudioRecorder(url: audioFileName, settings: settings)
             audioRecorder.record()
-            //Disable screen lock
-            UIApplication.shared.isIdleTimerDisabled = true
             recording = true
         } catch{
             let alertmsg = UIAlertController(title: "Try Again", message: "Could not start recording", preferredStyle: .alert)
@@ -83,8 +81,6 @@ class AudioRecorder:NSObject, ObservableObject{
     // func to stop recording the audio session
     func stopRecording(){
         audioRecorder.stop()
-        //Enable the screen lock
-        UIApplication.shared.isIdleTimerDisabled = false
         recording = false
         //to be called every time a recording is done
         audio2Video(audioURL: audioRecorder.url)
